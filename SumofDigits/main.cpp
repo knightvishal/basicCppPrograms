@@ -11,8 +11,8 @@ int main()
     int num, value, sum = 0;
 
     cout << "Enter the number : ";
-    cin >> value;
-    num = value;
+    cin >> value; //Enter the value
+    num = value;  
 
     while (num != 0)
     {
@@ -20,5 +20,5 @@ int main()
         num = num / 10;
     }
     cout << "The sum of the digits of "
-         << value << " is " << sum;
+         << value << " is " << sum<<endl;
 }
